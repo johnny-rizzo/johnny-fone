@@ -9,3 +9,5 @@ Funcionalidades
 -Preencher todos os campos e clicar em cadastrar;
 
 -Os dados são salvos em localstorage;
+
+https://johnny-fone.netlify.app
