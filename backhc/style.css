@@ -1,0 +1,151 @@
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #produtos {
+    padding: 0 2%;
+    display: flex;
+    margin: 12px;
+    flex-wrap:nowrap;
+  }
+  
+  #carrinho {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: block;
+  }
+  
+  #cadastroclientes {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: block;
+  }
+  
+  .produto-single {
+    width: 32%;
+    margin-right: 1%;
+    border: 3px solid rgb(250, 247, 247);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .produto-single img {
+    max-width: 100%;
+  }
+  
+  .produto-single p {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .produto-single a {
+    text-decoration: none;
+    color: white;
+    background-color: #0a4c6a;
+    text-align: center;
+    display: block;
+    padding: 3px 0;
+    font-size: 16px;
+  }
+  
+  h2 {
+    background-color: #3d42df;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+  }
+  
+  .info-single-checkout {
+    border-bottom: 2px dotted;
+    padding: 10px 0;
+  }
+  
+  .sessao1{
+  
+      margin-left: 500;
+  }
+  
+  
+  .button10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    
+    
+  }
+  .button101{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    margin-left:90px;
+    
+  }
+  .text-centro{
+      text-align: center;
+    }
+  
+  .icones{
+  
+      vertical-align: middle;
+      border-style: none;
+      margin-left: 1px;
+      margin-right: 40px;
+      }
+  
+      .card-contender{
+          background: rgb(255, 255, 255);
+          border-radius: 25px;
+          padding: 25px;
+          max-width: 600px;
+  
+      }
+  
+      input{
+          width: 30%;
+          height: 35px;
+          margin-bottom: 10px;
+          text-align: center;
+         
+          margin-right: 160px;
+          }
+          /* cadastro clientes /
+.container {
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 400px;
+  width: 50%;
+  / border: 3px solid green; /
+  padding: 20px;
+}
+.box {
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 400px;
+  width: 50%;
+  / border: 3px solid green; /
+  padding: 20px;
+}
+
+
+/ responsividade */
+@media screen and (max-width: 768pc) {
+    .produto-single {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+ 

@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <title>Johnny Fone</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
+
+
+  </head>
+
+  <body>
+    <h2>Produtos</h2>
+    <div id="produtos"></div>
+    <!-- produtos -->
+
+    <h2>Carrinho</h2>
+    <div id="carrinho"></div>
+    <!-- carrinho -->
+    <br>
+    <br>
+
+    <h2>Cadastro Clientes</h2>
+    <div id="cadastroclientes"></div>
+    <br>
+    <!-- carrinho -->
+   
+
+    <section class="sessao1 section-container">
+
+        <div>
+    <div id="modalCliente"  tabindex="-1" role="dialog"><!-- Início do código da janela modal cliente -->
+        
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form id="formCliente">
+                        <div class="form-group col-md-6"> 
+                            <input type="text" class="form-control" id="nome" placeholder="Nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="tel" class="form-control" id="cpf" placeholder="CPF">
+                        </div>
+                        <div class="form-group col-md-6 " >
+                        <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="number" class="form-control" id="numero" placeholder="Número">
+                            </div>
+                        <div class="form-group col-md-6">
+                            <input type="number" class="form-control" id="complemento" placeholder="Complemento">
+                             </div>
+                             <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                                 </div>
+                        <div class="form-group col-md-6">
+                             <input type="text" class="form-control" id="cep" placeholder="00000-000" maxlength="9">
+                             </div>
+                             <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="estado" placeholder="UF" maxlength="2">
+                                    </div>
+                                    <div class="button10 ">
+                                        <button class="btn btn-outline-secondary" type="button" onclick="cadastrar()">Cadastrar</button>
+                                    </form>
+                               
+                                <div class="button101 ">
+                                    <button type="button " class="btn btn-outline-secondary " data-dismiss="modal">
+                                        Fechar <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>                
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </section>
+
+<br>
+<!-- FOOTER -->
+<h2>Me siga nas redes sociais</h2>
+<div id="footer"></div>
+<!-- produtos -->
+<footer class="text-centro" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <p></p>
+                <br>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center ">
+            <ul class="social-network">
+  
+                    <a href="https://github.com/johnny-rizzo"  target="_blank" class="icoGit">  <img  src="assets/github_2.png" alt="icone github"></a>
+  
+                    <a href="https://www.linkedin.com/in/johnny-alison/"  target="_blank">  <img  src="assets/linkedin.png" alt="icone linkedin"></a>
+  
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="footer-copyright bg-color-rodape text-center py-3">
+        <span class="text-dark">jal.johnny13@gmail.com <br> <br> © Copyright 2021: Direitos reservados á Johnny Alison </span>
+  <br>
+  <br>
+    </div>
+    </footer>
+  
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script><!-- Chama a biblioteca JQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><!-- Chama o arquivo Bootstrap JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
